@@ -3772,12 +3772,3 @@
     justify-content: end;
   }
 }
-
-.div-foot{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.foot{
-  width: 85%;
-}

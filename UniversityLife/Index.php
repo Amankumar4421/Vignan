@@ -16,6 +16,7 @@ maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/mobile.css">
   <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -888,13 +889,224 @@ maximum-scale=1.0, user-scalable=no" />
 
 
 
+  <!-- footer start -->
   <div class="div-foot">
     <div class="foot">
-      <?php
-      require_once("./footer.php");
-      ?>
+
+      <div class="footer">
+        <div class="footer_innrdiv">
+          <div class="ftr_col1">
+            <div class="bethefirst_div">
+              <div class="bethefirst_txt">Be The First to Know.</div>
+            </div>
+            <div class="subscribe_div">
+              <div class="subscribe_txt">Subscribe to the newsletter for all the updates</div>
+              <!-- <div style="align-self: stretch; height: 82px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 13px; display: flex"">
+                <label for="label">
+                    <input type="text" id="label" placeholder=""  style=" background: transparent;">
+                    <span>Enter E-mail id</span>
+                    <div class="label_smallcta smallcta_btn_primary">
+                        <img src="assets/icons/arrow_forward_white.png" />
+                    </div>
+                </label> -->
+
+              <div class="emaildiv">
+                <div class="email_innrdiv">
+
+                  <label for="label">
+                    <input type="email" id="label" placeholder="" style=" background: transparent;">
+                    <span>Enter E-mail id</span>
+                    <div class="label_smallcta smallcta_btn_primary">
+                      <img src="./assets/icons/arrow_forward_white.png" />
+                    </div>
+                  </label>
+
+
+                  <div style="opacity: 0; color: #CC1F1F; font-size: 13px; font-family: Familjen Grotesk; font-weight: 400; line-height: 18.20px; word-wrap: break-word">
+                    Error Message</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ftrcontact_div">
+            <div class="ftrcontact_innrdiv">
+              <div class="ftrcontact_txt">Contact Us </div>
+              <div class="clznm_div">
+                <div class="clznm_txt">Vignan's Foundation for Science, Technology and Research <br />(Deemed to
+                  be University), Vadlamudi, Guntur-522213</div>
+                <div class="ftr_cntdetails">
+                  <div class="ftr_cntdetails_txt">info@vignan.ac.in</div>
+                  <div class="ftr_cntdetails_txt"> 0863-2344700 / 701 </div>
+                </div>
+              </div>
+            </div>
+            <div class="ftr_socialmediadivs">
+              <img src="./assets/icons/Linkedin.png" />
+              <img src="./assets/icons/Facebook.png" />
+              <img src="./assets/icons/Instagram.png" />
+              <img src="./assets/icons/youtube.png" />
+
+
+            </div>
+          </div>
+        </div>
+        <div class="ftr_row2">
+          <div class="ftr_row2_cols">
+            <div class="ftr_row2_col_hdr">Admission</div>
+            <div class="ftr_row2_col_optsdiv">
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Apply Online</a>
+
+                <!-- <div style="width: 1px; height: 0px; border: 1px rgba(0, 0, 0, 0) solid"></div> -->
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">International Students</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Why Choose Us?</a>
+
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Announcements</a>
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Refund Policy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ftr_row2_cols">
+            <div class="ftr_row2_col_hdr">Student</div>
+            <div class="ftr_row2_col_optsdiv">
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Wellness</a>
+
+                <!-- <div style="width: 1px; height: 0px; border: 1px rgba(0, 0, 0, 0) solid"></div> -->
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Pay Tuition Fee</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Examinations</a>
+
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Internship Portal</a>
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Slam Book</a>
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Outlook ( Access Mails)</a>
+              </div>
+              <div style="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">NCC</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ftr_row2_cols">
+            <div class="ftr_row2_col_hdr">Accreditation</div>
+            <div class="ftr_row2_col_optsdiv">
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">NAAC</a>
+
+                <!-- <div style="width: 1px; height: 0px; border: 1px rgba(0, 0, 0, 0) solid"></div> -->
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">NBA</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">DSIR Certified</a>
+
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="ftr_row2_cols">
+            <div class="ftr_row2_col_hdr">OTHERS</div>
+            <div class="ftr_row2_col_optsdiv">
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Blogs</a>
+
+                <!-- <div style="width: 1px; height: 0px; border: 1px rgba(0, 0, 0, 0) solid"></div> -->
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Vignan Online</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">MHRD- NMEICT</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">ARIIA</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Communities</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Feedback</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Careers</a>
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="ftr_row2_cols">
+            <div class="ftr_row2_col_hdr">internal portals</div>
+            <div class="ftr_row2_col_optsdiv">
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">DEO</a>
+
+                <!-- <div style="width: 1px; height: 0px; border: 1px rgba(0, 0, 0, 0) solid"></div> -->
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Faculty</a>
+
+              </div>
+              <div class="ftr_row2_col_opts">
+                <a href="#" class="ftr_row2_col_optstxt">Student</a>
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+        <div class="copyrightsdiv">
+          <div class="copyrights_txt">Copyrights © 2023 Vignan University. All rights reserved.</div>
+
+          <div class="privacypolicy_div">
+            <a href="#" class="privacypolicytxt">Privacy Policy</a>
+          </div>
+
+        </div>
+      </div>
+
+
     </div>
   </div>
+  <!-- footer ends -->
 
 </body>
 
