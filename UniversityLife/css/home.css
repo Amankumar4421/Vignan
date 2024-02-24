@@ -1,0 +1,51 @@
+.herosec-row{
+    display: inline-grid;
+    gap: 31px;
+}
+
+.herosec-bigtxt{
+    color: var(--Colors-Primary, #992E00);
+/* Serif/Display/Se Display 4 */
+font-family: "DM Serif Display";
+font-size: 91px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+width: 937px;
+}
+
+.herosec-img{
+    height: 700px;
+    width: 95%
+    ;position: absolute;
+    z-index: -1;
+}
+
+.herosec-txt{
+    color: var(--Color-Text-Color-def, #000);
+/* Serif/Sub-heading/Se Sub-Heading 1 */
+font-family: "DM Serif Display";
+font-size: 31px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 37.2px */
+width: 543px;
+}
+
+.herosec-content{
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 61px;
+}
+
+.herosec-buttons{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   gap:25px;
+}
+
+.btn-widthauto{
+    width:auto !important;
+}
