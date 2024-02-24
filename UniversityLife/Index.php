@@ -38,14 +38,6 @@ maximum-scale=1.0, user-scalable=no" />
   </style>
 </head>
 
-echo "# Vignan" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/Amankumar4421/Vignan.git
-git push -u origin master
-
 <body>
 
   <div class="top-nav">
@@ -899,7 +891,7 @@ git push -u origin master
   <div class="div-foot">
     <div class="foot">
       <?php
-      // require_once("./footer.php");
+      require_once("./footer.php");
       ?>
     </div>
   </div>
