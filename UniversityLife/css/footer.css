@@ -6,7 +6,9 @@
   .foot{
     width: 85%;
   }
-
+.footer{
+        padding: 2% 0;
+    }
 @media (max-width: 991px) {
     .div-foot{
         margin-bottom: 40px;
@@ -14,9 +16,7 @@
     .foot{
         width: 90%;
     }
-    .footer{
-        padding: 0;
-    }
+    
     .footer_innrdiv{
         flex-direction: column;
 

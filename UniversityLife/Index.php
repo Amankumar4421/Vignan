@@ -41,6 +41,7 @@ maximum-scale=1.0, user-scalable=no" />
 
 <body>
 
+  <!-- navbar start -->
   <div class="top-nav">
     <ul class="topnav-ul">
       <li>
@@ -230,7 +231,9 @@ maximum-scale=1.0, user-scalable=no" />
     });
   </script>
 
+  <!-- navbar end -->
 
+  <!-- University life Content -->
   <div class="div1">
 
     <div class="div-19">
@@ -328,12 +331,15 @@ maximum-scale=1.0, user-scalable=no" />
               from among the nominees and selections done
             </div>
             <div class="div-56">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img class="arrow" src="./assets/icons/arrow_outward.png" />
-                Read More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div46">
+                <div class="div47">Read More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img6" />
+              </div>
+              <div class="div48"></div>
             </div>
           </div>
         </div>
+
         <div class="column-8">
           <div class="div-59">
             <div class="div-60">Sports Cell</div>
@@ -342,12 +348,15 @@ maximum-scale=1.0, user-scalable=no" />
               young minds
             </div>
             <div class="div-62">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img class="arrow" src="./assets/icons/arrow_outward.png" />
-                Read More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div46">
+                <div class="div47">Read More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img6" />
+              </div>
+              <div class="div48"></div>
             </div>
           </div>
         </div>
+
         <div class="column-9">
           <div class="div-65">
             <div class="div-66">NCC</div>
@@ -356,12 +365,15 @@ maximum-scale=1.0, user-scalable=no" />
               comradeship, and capacity for leadership among youth in India.
             </div>
             <div class="div-68">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img class="arrow" src="./assets/icons/arrow_outward.png" />
-                Read More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div46">
+                <div class="div47">Read More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img6" />
+              </div>
+              <div class="div48"></div>
             </div>
           </div>
         </div>
+
         <div class="column-10">
           <div class="div-71">
             <div class="div-72">UEAC</div>
@@ -370,9 +382,11 @@ maximum-scale=1.0, user-scalable=no" />
               responsibility among budding engineers
             </div>
             <div class="div-74">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img class="arrow" src="./assets/icons/arrow_outward.png" />
-                Read More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div46">
+                <div class="div47">Read More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img6" />
+              </div>
+              <div class="div48"></div>
             </div>
           </div>
         </div>
@@ -678,9 +692,11 @@ maximum-scale=1.0, user-scalable=no" />
               international referred journals are available.
             </div>
             <div class="div-179">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img src="./assets/icons/arrow_outward.png" />
-                &nbsp;Explore More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div-251">
+                <div class="div-252">Explore More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
             <div class="div-182">Online Resources</div>
             <div class="div-183">
@@ -689,9 +705,11 @@ maximum-scale=1.0, user-scalable=no" />
               password)
             </div>
             <div class="div-184">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img src="./assets/icons/arrow_outward.png" />
-                &nbsp;Explore More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div-251">
+                <div class="div-252">Explore More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
             <div class="div-187">Vignan Library Services</div>
             <div class="div-188">
@@ -701,9 +719,11 @@ maximum-scale=1.0, user-scalable=no" />
               knowledge facilitating prospects for future research.
             </div>
             <div class="div-189">
-              <button class="text_btn_primary text_btn_primary-btn_txt"> <img src="./assets/icons/arrow_outward.png" />
-                &nbsp;Explore More </button>
-              <div style="align-self: stretch; height: 0px; border: 1px #992E00 solid"></div>
+              <div class="div-251">
+                <div class="div-252">Explore More</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
           </div>
         </div>
@@ -849,8 +869,11 @@ maximum-scale=1.0, user-scalable=no" />
               Association
             </div>
             <div class="div-236">
-              <button class="text_btn_primary text_btn_primary-btn_txt "> <img src="./assets/icons/arrow_outward.png" />
-                View Details </button>
+              <div class="div-251">
+                <div class="div-252">View Details</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
 
           </div>
@@ -859,8 +882,11 @@ maximum-scale=1.0, user-scalable=no" />
           <div class="div-239">
             <div class="div-240">Admissions Advisory Committee</div>
             <div class="div-241">
-              <button class="text_btn_primary text_btn_primary-btn_txt "> <img src="./assets/icons/arrow_outward.png" />
-                View Details </button>
+              <div class="div-251">
+                <div class="div-252">View Details</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
           </div>
         </div>
@@ -868,22 +894,33 @@ maximum-scale=1.0, user-scalable=no" />
           <div class="div-244">
             <div class="div-245">Evaluation Standards Committee</div>
             <div class="div-246">
-              <button class="text_btn_primary text_btn_primary-btn_txt "> <img src="./assets/icons/arrow_outward.png" />
-                View Details </button>
+              <div class="div-251">
+                <div class="div-252">View Details</div>
+                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              </div>
+              <div class="div-253"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <div class="div-249">
       <button class="cta_button_primary Ss-btn_txt">
         <div>View All</div> <img src="./assets/icons/Button_forwardarrow.png" />
       </button>
     </div>
     <div class="div-250">
-      <button class="text_btn_secondary text_btn_secondary-btn_txt"> <img src="./assets/icons/arrow_outward.png" /> &nbsp;View All </button>
+      <div>
+        <div class="div-254">
+          <div class="div-255">View All</div>
+          <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img6" />
+        </div>
+        <div class="div-256"></div>
+      </div>
     </div>
+
+
+
   </div>
 
 
