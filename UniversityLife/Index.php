@@ -250,7 +250,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-2">
           <div class="div-24">
-            <img loading="lazy" src="./assets/images/image1.png" alt="image" class="img-5" />
+            <img loading="lazy" src="./assets/images/img1.jpg" alt="image" class="img-5" />
           </div>
         </div>
       </div>
@@ -263,7 +263,7 @@ maximum-scale=1.0, user-scalable=no" />
           <div class="div-27">
             <div class="div-28">Experience the Ambience</div>
             <div class="div-29">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-6" />
+              <img loading="lazy" src="./assets/images/green.png" class="img-6" />
               <div class="div-30">
                 <div class="div-31">
                   <div class="div-32">Green Campus
@@ -284,7 +284,7 @@ maximum-scale=1.0, user-scalable=no" />
         <div class="column-4">
           <div class="div-35">
             <div class="div-36">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-8" />
+              <img loading="lazy" src="./assets/images/canteen.png" class="img-8" />
               <div class="div-37">
                 <div class="div-38">
                   <div class="div-39">Canteen Tour
@@ -298,13 +298,16 @@ maximum-scale=1.0, user-scalable=no" />
             <div class="div-41">
               <div class="div-42">
                 <div class="column-5">
-                  <div class="cardsmall-img">
-                    <div class="cardsmall-overlay">
-                      <div class="card-caption">Auditorium <button class="smallcta_btn_primary">
-                          <img src="./assets/icons/arrow_outward_white.png" class="img-ca" />
-                        </button>
+                  <div class="div-43">
+                    <img loading="lazy" src="./assets/images/auditorium.png" class="img-10" />
+                    <div class="div-44">
+                      <div class="div-45">
+                        <div class="div-46">Auditorium
+                          <div class="smallcta_btn_primary">
+                            <img src="../components/assets/icons/arrow_outward_white.png" />
+                          </div>
+                        </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -410,7 +413,7 @@ maximum-scale=1.0, user-scalable=no" />
             </div>
 
             <div class="div-81">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-17" />
+              <img loading="lazy" src="./assets/images/tennis.png" class="img-17" />
               <div class="div-82">
                 <div class="div-83">
                   <div class="div-84">Tennis &nbsp;
@@ -425,7 +428,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-12">
           <div class="div-86">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-19" />
+            <img loading="lazy" src="./assets/images/football.png" class="img-19" />
             <div class="div-87">
               <div class="div-88">
                 <div class="div-89">Football &nbsp;
@@ -440,7 +443,7 @@ maximum-scale=1.0, user-scalable=no" />
         <div class="column-13">
           <div class="div-91">
             <div class="div-92">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-21" />
+              <img loading="lazy" src="./assets/images/cricket.png" class="img-21" />
               <div class="div-93">
                 <div class="div-94">
                   <div class="div-95">Cricket &nbsp;
@@ -468,7 +471,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-14">
           <div class="div-101">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-24" />
+            <img loading="lazy" src="./assets/images/basketball.png" class="img-24" />
             <div class="div-102">
               <div class="div-103">
                 <div class="div-104">Basketball
@@ -498,7 +501,7 @@ maximum-scale=1.0, user-scalable=no" />
               Art & Cultural Amenities
             </div>
             <div class="div-110">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-26" />
+              <img loading="lazy" src="./assets/images/art.jpg" class="img-26" />
             </div>
             <div class="div-111">
               The institution provides rich scope and facilities for different
@@ -512,13 +515,13 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-16">
           <div class="div-112">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-27" />
+            <img loading="lazy" src="./assets/images/culture.png" class="img-27" />
           </div>
         </div>
         <div class="column-17">
           <div class="div-113">
             <div class="div-114">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-28" />
+              <img loading="lazy" src="./assets/images/artculture.png" class="img-28" />
             </div>
             <div class="div-111-mob">
               The institution provides rich scope and facilities for different
@@ -545,7 +548,7 @@ maximum-scale=1.0, user-scalable=no" />
       <div class="div-119">
         <div class="column-18">
           <div class="div-120">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-30" />
+            <img loading="lazy" src="./assets/images/mahotsav.jpg" class="img-30" />
             <div class="div-121">
               <div class="div-122">mahotsav</div>
               <div class="div-123">03 Sept to 04 Sept 2024</div>
@@ -554,7 +557,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-19">
           <div class="div-124">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-31" />
+            <img loading="lazy" src="./assets/images/aavega.jpg" class="img-31" />
             <div class="div-125">
               <div class="div-126">Aavega</div>
               <div class="div-127">03 Sept to 04 Sept 2024</div>
@@ -567,7 +570,7 @@ maximum-scale=1.0, user-scalable=no" />
       <div class="div-129">
         <div class="column-20">
           <div class="div-130">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-32" />
+            <img loading="lazy" src="./assets/images/spic.jpg" class="img-32" />
             <div class="div-131">
               <div class="div-132">Spic Macay</div>
               <div class="div-133">03 Dec 2024</div>
@@ -576,7 +579,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-21">
           <div class="div-134">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-33" />
+            <img loading="lazy" src="./assets/images/ekta.jpg" class="img-33" />
             <div class="div-135">
               <div class="div-136">Ektha Diwas</div>
               <div class="div-137">03 Dec 2024</div>
@@ -591,7 +594,7 @@ maximum-scale=1.0, user-scalable=no" />
       <div class="div-140">
         <div class="column-22">
           <div class="div-141">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-34" />
+            <img loading="lazy" src="./assets/images/facility.jpg" class="img-34" />
           </div>
         </div>
         <div class="column-23">
@@ -679,7 +682,7 @@ maximum-scale=1.0, user-scalable=no" />
             </div>
           </div>
           <div class="div-192-mob">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-44" />
+            <img loading="lazy" src="./assets/images/library.png" class="img-44" />
           </div>
         </div>
         <div class="column-31">
@@ -729,7 +732,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-32">
           <div class="div-192">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-44" />
+            <img loading="lazy" src="./assets/images/library.png" class="img-44" />
           </div>
         </div>
       </div>
@@ -767,7 +770,7 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="column-34">
           <div class="div-201">
-            <img loading="lazy" srcset="./assets/images/image1.png" class="img-47" />
+            <img loading="lazy" src="./assets/images/emotion.jpg" class="img-47" />
           </div>
         </div>
         <div class="column-35">
@@ -785,7 +788,7 @@ maximum-scale=1.0, user-scalable=no" />
               </button>
             </div>
             <div class="div-208">
-              <img loading="lazy" srcset="./assets/images/image1.png" class="img-49" />
+              <img loading="lazy" src="./assets/images/emotion1.jpg" class="img-49" />
             </div>
           </div>
         </div>
@@ -800,7 +803,7 @@ maximum-scale=1.0, user-scalable=no" />
             <div class="div-212">
               <div class="column-37">
                 <div class="div-213">
-                  <img loading="lazy" srcset="./assets/images/image1.png" class="img-50" />
+                  <img loading="lazy" src="./assets/images/antiragging.png" class="img-50" />
                 </div>
               </div>
               <div class="column-38">
@@ -818,7 +821,7 @@ maximum-scale=1.0, user-scalable=no" />
                     </button>
                   </div>
                   <div class="div-219">
-                    <img loading="lazy" srcset="./assets/images/image1.png" class="img-52" />
+                    <img loading="lazy" src="./assets/images/anti1.png" class="img-52" />
                   </div>
                 </div>
               </div>
@@ -869,11 +872,13 @@ maximum-scale=1.0, user-scalable=no" />
               Association
             </div>
             <div class="div-236">
-              <div class="div-251">
-                <div class="div-252">View Details</div>
-                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              <div>
+                <div class="div-251">
+                  <div class="div-252">View Details</div>
+                  <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+                </div>
+                <div class="div-253"></div>
               </div>
-              <div class="div-253"></div>
             </div>
 
           </div>
@@ -882,11 +887,13 @@ maximum-scale=1.0, user-scalable=no" />
           <div class="div-239">
             <div class="div-240">Admissions Advisory Committee</div>
             <div class="div-241">
-              <div class="div-251">
-                <div class="div-252">View Details</div>
-                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              <div>
+                <div class="div-251">
+                  <div class="div-252">View Details</div>
+                  <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+                </div>
+                <div class="div-253"></div>
               </div>
-              <div class="div-253"></div>
             </div>
           </div>
         </div>
@@ -894,11 +901,13 @@ maximum-scale=1.0, user-scalable=no" />
           <div class="div-244">
             <div class="div-245">Evaluation Standards Committee</div>
             <div class="div-246">
-              <div class="div-251">
-                <div class="div-252">View Details</div>
-                <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+              <div>
+                <div class="div-251">
+                  <div class="div-252">View Details</div>
+                  <img loading="lazy" src="./assets/icons/arrow_outward.png" class="img-58" />
+                </div>
+                <div class="div-253"></div>
               </div>
-              <div class="div-253"></div>
             </div>
           </div>
         </div>
@@ -920,11 +929,7 @@ maximum-scale=1.0, user-scalable=no" />
     </div>
 
 
-
   </div>
-
-
-
 
   <!-- footer start -->
   <div class="div-foot">
