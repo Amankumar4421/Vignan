@@ -234,7 +234,7 @@ maximum-scale=1.0, user-scalable=no" />
   <!-- navbar end -->
 
   <!-- University life Content -->
-  <div class="div1">
+  <div class="main">
 
     <div class="div-19">
       <div class="div-20">
