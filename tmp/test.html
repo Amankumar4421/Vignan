@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- FontAwesome link -->
+    <style>
+      body {
+        background-color: #f2f1ed !important;
+      }
+
+      .div-19 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1270px;
+      }
+      .slide {
+        z-index: 1;
+        position: absolute;
+        /* opacity: 0; */
+      }
+      .slide.active {
+        z-index: 10;
+        .div-24 {
+          clip-path: inset(0 0 0 0);
+          transition: clip-path 1s linear;
+        }
+        .div-21 {
+          z-index: 11;
+          clip-path: inset(0 0 0 0);
+          transition: clip-path 2s linear;
+        }
+      }
+      .div-20 {
+        display: flex;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 57%;
+        margin-left: 0px;
+      }
+      .div-21 {
+        display: flex;
+        margin-top: 117px;
+        flex-direction: column;
+        font-weight: 400;
+        padding: 0 20px;
+        width: 130%;
+        clip-path: inset(0 200% 0 0);
+        transition: clip-path 1s linear;
+      }
+      .div-22 {
+        color: var(--Colors-Primary, #992e00);
+        font: 95px/95px DM Serif Display, -apple-system, Roboto, Helvetica,
+          sans-serif;
+        width: 100%;
+      }
+      .div-23 {
+        color: var(--Color-Text-Color-def, #000);
+        margin-top: 61px;
+        font: 31px/37px DM Serif Display, -apple-system, Roboto, Helvetica,
+          sans-serif;
+        width: 543px;
+      }
+      .column-2 {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 55%;
+        margin-left: 20px;
+      }
+      .div-24 {
+        justify-content: center;
+        background-color: #f2f1ed;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        clip-path: inset(0 200% 0 0);
+        transition: clip-path 0.8s linear;
+      }
+      .img-5 {
+        aspect-ratio: 0.88;
+        object-fit: auto;
+        width: 100%;
+      }
+
+      .controls {
+        background-color: #fff;
+        z-index: 20;
+        position: relative;
+        top: 600px;
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .progress-bar {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        margin: 5px;
+        transition: width 1s linear;
+      }
+      .progress-bar.active {
+        width: 40%;
+        background-color: #fff;
+      }
+
+      .progress {
+        width: 0%;
+        height: 100%;
+        border-radius: 10px;
+        transition: width 12s linear;
+      }
+      .progress-bar.active > .progress {
+        width: 100%;
+        background-color: #992e00;
+      }
+      .toggle-btn {
+        width: 30px; /* Adjust as needed */
+        height: 30px; /* Adjust as needed */
+        background-color: #992e00; /* Adjust as needed */
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div-19">
+        <div class="slide active">
+          <div class="div-20">
+            <div class="column">
+              <div class="div-21">
+                <div class="div-22">Learn, Thrive, Enjoy, and Grow.1</div>
+                <div class="div-23">
+                  The beautifully landscaped campus has green tree lined
+                  avenues, lush green lawns, spacious classrooms, open corridors
+                  and large playgrounds.
+                </div>
+              </div>
+            </div>
+            <div class="column-2">
+              <div class="div-24">
+                <img
+                  loading="lazy"
+                  src="antiragging.png"
+                  alt="image"
+                  class="img-5"
+                />
+                <div class="white"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="div-20">
+            <div class="column">
+              <div class="div-21">
+                <div class="div-22">Learn, Thrive, Enjoy, and Grow.2</div>
+                <div class="div-23">
+                  The beautifully landscaped campus has green tree lined
+                  avenues, lush green lawns, spacious classrooms, open corridors
+                  and large playgrounds.
+                </div>
+              </div>
+            </div>
+            <div class="column-2">
+              <div class="div-24">
+                <img
+                  loading="lazy"
+                  src="emotion.jpg"
+                  alt="image"
+                  class="img-5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="div-20">
+            <div class="column">
+              <div class="div-21">
+                <div class="div-22">Learn, Thrive, Enjoy, and Grow.3</div>
+                <div class="div-23">
+                  The beautifully landscaped campus has green tree lined
+                  avenues, lush green lawns, spacious classrooms, open corridors
+                  and large playgrounds.
+                </div>
+              </div>
+            </div>
+            <div class="column-2">
+              <div class="div-24">
+                <img
+                  loading="lazy"
+                  src="facility.jpg"
+                  alt="image"
+                  class="img-5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls"></div>
+    </div>
+    <script>
+      const items = document.querySelectorAll(".slide");
+      const control = document.querySelector(".controls");
+
+      for (let i = 0; i < items.length; i++) {
+        const progressBarContainer = document.createElement("div");
+        progressBarContainer.className = "progress-bar";
+
+        const progressBar = document.createElement("div");
+        progressBar.className = "progress";
+
+        progressBarContainer.appendChild(progressBar);
+        control.appendChild(progressBarContainer);
+      }
+      let currentIndex = 0;
+
+      const pb = document.querySelectorAll(".progress-bar");
+      setTimeout(function () {
+        pb[0].classList.add("active");
+      }, 1);
+
+      function showSlide(index) {
+        currentIndex = index;
+        items.forEach((item) => {
+          item.classList.remove("active");
+        });
+        items[currentIndex].classList.add("active");
+
+        pb.forEach((item) => {
+          item.classList.remove("active");
+        });
+        pb[currentIndex].classList.add("active");
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % items.length;
+        showSlide(currentIndex);
+      }
+
+      function prevSlide() {
+        currentIndex = (currentIndex - 1 + items.length) % items.length;
+        showSlide(currentIndex);
+      }
+
+      const progress = document.querySelectorAll(".progress");
+
+      let id;
+
+      const toggleButton = document.createElement("button");
+      toggleButton.className = "toggle-btn";
+      toggleButton.innerHTML = '<i class="fas fa-play"></i>';
+
+      function toggleState() {
+        if (toggleButton.innerHTML === '<i class="fas fa-pause"></i>') {
+          toggleButton.innerHTML = '<i class="fas fa-play"></i>';
+          clearInterval(id);
+          pb[currentIndex].childNodes[0].style.transition = "none";
+        } else {
+          toggleButton.innerHTML = '<i class="fas fa-pause"></i>';
+          if (id) {
+            nextSlide();
+            pb[currentIndex].childNodes[0].style.transition = "width 12s linear";
+          }
+          id = setInterval(nextSlide, 12000);
+        }
+      }
+
+      toggleButton.addEventListener("click", toggleState);
+
+      toggleState();
+
+      control.appendChild(toggleButton);
+    </script>
+  </body>
+</html>

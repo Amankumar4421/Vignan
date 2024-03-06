@@ -1,0 +1,136 @@
+body {
+  background-color: #F2F1ED !important;
+}
+
+.div-19 {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1270px;
+}
+.slide {
+  z-index: 1;
+  position: absolute;
+  /* opacity: 0; */
+  
+}
+.slide.active {
+  z-index: 10;
+  .div-24 {
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 1s linear;
+  }
+  .div-21 {
+    z-index: 11;
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 2s linear;
+  }
+}
+.div-20 {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 57%;
+  margin-left: 0px;
+}
+.div-21 {
+  display: flex;
+  margin-top: 117px;
+  flex-direction: column;
+  font-weight: 400;
+  padding: 0 20px;
+  width: 130%;
+  clip-path: inset(0 200% 0 0); 
+  transition: clip-path 1s linear;
+}
+.div-22 {
+  color: var(--Colors-Primary, #992e00);
+  font: 95px/95px DM Serif Display, -apple-system, Roboto, Helvetica, sans-serif;
+  width: 100%;
+}
+.div-23 {
+  color: var(--Color-Text-Color-def, #000);
+  margin-top: 61px;
+  font: 31px/37px DM Serif Display, -apple-system, Roboto, Helvetica, sans-serif;
+  width: 543px;
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 55%;
+  margin-left: 20px;
+}
+.div-24 {
+  justify-content: center;
+  background-color: #F2F1ED;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  clip-path: inset(0 200% 0 0); 
+  transition: clip-path 0.8s linear;
+}
+.img-5 {
+  aspect-ratio: 0.88;
+  object-fit: auto;
+  width: 100%;
+}
+
+.controls{
+  background-color: #fff;
+  z-index: 20;
+  position: relative;
+  top: 600px;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.progress-bar {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  transition: width 1s linear;
+}
+.progress-bar.active{
+  width: 40%;
+  background-color: #fff;
+}
+
+
+.progress{
+  width: 0%;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 5s linear;
+}
+.progress-bar.active > .progress{
+  width: 100%;
+  background-color: #992e00;
+}
+.toggle-btn {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  background-color: #992e00; /* Adjust as needed */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
